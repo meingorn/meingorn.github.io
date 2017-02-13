@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why I'm Learning Code""
+title:  "Why I'm Learning Code"
 date:   2017-02-12 21:17:27 -0500
 ---
 
