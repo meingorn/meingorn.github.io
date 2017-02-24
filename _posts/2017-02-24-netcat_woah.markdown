@@ -25,7 +25,7 @@ On the local: nc -v -w 2 127.0.0.1 31000 < file
 
 	Clearly this is an extremely versatile and useful tool for diagnosing problems on a network. However beyond that, nc is also a favorite tool of hackers, known to some as  “the swiss army knife of hacking tools”. From the examples above, even successfully sending an encrypted file has obvious hacking applications. However, in order for the file to be opened on the remote, someone needs to be on the receiving end typing in the command. Or do they? 
 	
-	![]( http://giphy.com/gifs/rick-and-morty-1107IdxsMU7I6khttp://)
+	![](http://giphy.com/gifs/rick-and-morty-1107IdxsMU7I6khttp://)
 	
 	
 	
