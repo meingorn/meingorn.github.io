@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Securing Your Data Online"
-date:   2017-03-08 14:31:10 +0000
+date:   2017-03-08 09:31:11 -0500
 ---
 
 
