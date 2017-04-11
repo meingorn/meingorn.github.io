@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Understanding “State” in JavaScript"
+title:  "Understanding “State” in React"
 date:   2017-04-11 09:32:49 -0400
 ---
 
