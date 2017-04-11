@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Understanding “State” in JavaScript"
-date:   2017-04-11 13:32:48 +0000
+date:   2017-04-11 09:32:49 -0400
 ---
 
 
@@ -9,7 +9,7 @@ date:   2017-04-11 13:32:48 +0000
 Recently at Flatiron my class has been delving into the basics of React.js. One of the first things you learn is that most things in the UI are broken into components, essentially pieces within your page that you can isolate from the page itself and reuse as necessary. This is one of the cool things about React, and it allows you to make dynamic web pages that can be modified quickly. Components are essentially JavaScript functions, and can take an argument of what is called a prop and return the React element describing what should render on the screen. 
 	While ‘props’ were a little tricky for me to understand at first, they’re pretty easily understood as a way of passing a template that takes an input that will change the html accordingly, or more coherently: “a way of passing data from parent to child” (thanks docs!). Ok, makes sense. However, things got a little confusing when we got to state. In our early labs we were told to think of state as a prop that will be changed in the future. This explanation was enough to complete basic tasks like programming a simple image slider: 
 
-![](http://imgur.com/fpXGhL9)
+![](http://imgur.com/fpXGhL9) http://imgur.com/fpXGhL9
 
 First we set the initial state in the constructor, in this case having the slider start at the first point in the slides index at currentSlidesIndex[0]. In the view, we allow the div to render dynamically based on the the current index without reloading the entire page. Seems like a pretty useful feature to say the least. 
 	As I continued on informing myself about React, state seemed to keep coming up as a thing about React that was cool but confusing. Being attracted to useful quirks, I figured it would be good to look into. I quickly learned that Redux which I had often heard mentioned in the same breath as React. In the documentation, Redux is defined as a “predictable state container for JavaScript apps… it helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. It became immediately clear that state was going to be a massive rabbit hole if Redux was created to help contain it, whatever that means. So my next goal became defining state in a way that was both simplified yet not so simple that I’m missing out on key concepts. 
