@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "React: Up and Running "
-date:   2017-06-10 20:12:26 +0000
+date:   2017-06-10 16:12:27 -0400
 ---
 
  
