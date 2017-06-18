@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Enter your title here"
-date:   2017-06-18 16:04:15 +0000
+title:  "Javascript’s ‘This’: Further Reading"
+date:   2017-06-18 12:04:15 -0400
 ---
 
-
-Javascript’s ‘This’: Further Reading
  
 In JavaScript, ‘this’ is often referred to as one of the more complex concepts out there. I’ve been meaning to read up on why for a while, since I knew it’s important. Heck, there’s an entire You Don’t Know JS book written on the topic. [http://shop.oreilly.com/product/0636920033738.do] 
  
