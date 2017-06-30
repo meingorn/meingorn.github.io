@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quicksort: It's Quick"
-date:   2017-06-30 18:51:41 +0000
+date:   2017-06-30 14:51:42 -0400
 ---
 
 
